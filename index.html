@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr D's Automotive | Honest Auto Repair in Santa Ana, CA</title>
+    <meta name="description" content="Mr D's Automotive - Santa Ana's honest mechanic. Mr D delivers straight talk and fair pricing. Oil changes, brakes, engine repair & more. Call (714) 554-6711.">
+    <meta name="keywords" content="auto repair Santa Ana, honest mechanic Santa Ana, oil change, brake repair, Mr D's Automotive, Westminster Ave">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-inner">
+            <div class="top-bar-left">
+                <span class="top-bar-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                    <a href="tel:7145546711">(714) 554-6711</a>
+                </span>
+                <span class="top-bar-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    3802 Westminster Ave, Santa Ana, CA
+                </span>
+            </div>
+            <div class="top-bar-right">
+                <span class="top-bar-item">Mon-Fri 7:30AM-5:30PM, Sat 8AM-2PM</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-inner">
+            <a href="#" class="logo">
+                <span class="logo-icon">D</span>
+                <div class="logo-text">
+                    <span class="logo-name">Mr D's Automotive</span>
+                    <span class="logo-tagline">Honest Mechanic in Santa Ana</span>
+                </div>
+            </a>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#services" data-section="services">Services</a></li>
+                <li><a href="#why-us" data-section="why-us">Why Us</a></li>
+                <li><a href="#reviews" data-section="reviews">Reviews</a></li>
+                <li><a href="#about" data-section="about">About</a></li>
+                <li><a href="#contact" class="nav-cta" data-section="contact">Schedule Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-particles" id="heroParticles"></div>
+            <div class="hero-badge">Santa Ana's Honest Mechanic Since Day One</div>
+            <h1>Mr D Tells It <span class="highlight">Straight.</span><br>No BS. Just Honest Repair.</h1>
+            <p class="hero-sub">When Mr D looks under your hood, you get the truth. No inflated bills, no phantom repairs, no confusing jargon. Just honest work at a fair price. That's how Mr D has earned the trust of Santa Ana, one car at a time.</p>
+            <div class="hero-ctas">
+                <a href="tel:7145546711" class="btn btn-primary btn-lg btn-pulse">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                    Call (714) 554-6711
+                </a>
+                <a href="#contact" class="btn btn-secondary btn-lg btn-pulse">Get a Free Quote</a>
+            </div>
+            <div class="hero-trust">
+                <div class="trust-item">
+                    <div class="trust-score">4.5</div>
+                    <div class="trust-label">Yelp Rating<br><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span></div>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <div class="trust-score" data-count="20">20+</div>
+                    <div class="trust-label">Years of<br>Experience</div>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <div class="trust-score" data-count="4000">4,000+</div>
+                    <div class="trust-label">Cars<br>Repaired</div>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <div class="trust-score">Mr D</div>
+                    <div class="trust-label">Personally<br>Oversees</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Urgency Banner -->
+    <section class="urgency-banner" id="urgency-banner">
+        <div class="container">
+            <div class="urgency-content">
+                <div class="urgency-text">
+                    <span class="urgency-label">SPECIAL OFFER</span>
+                    <strong>$15 OFF</strong> any service over $75. Mention this website when you call. Do not wait!
+                </div>
+                <a href="tel:7145546711" class="btn btn-white">Claim Offer Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Services</span>
+                <h2>Mr D Handles It All.<br>Big Jobs, Small Jobs, Every Job.</h2>
+                <p>From a quick oil change to major engine work, Mr D's Automotive gets it done right. We explain your options before we turn a single wrench. No surprises, just solid work.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                    </div>
+                    <h3>Oil Change & Lube</h3>
+                    <p>Fast oil changes with premium synthetic and conventional oils. Mr D uses exactly what your car needs, nothing more. No pressure, no upsells. Just clean oil and a smooth engine.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="15" height="13" rx="2"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+                    </div>
+                    <h3>Brake Service & Repair</h3>
+                    <p>Squeaking or grinding? Mr D pinpoints the problem and shows you exactly what needs fixing. No scare tactics, no unnecessary replacements. Just honest brake work that keeps you safe.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><line x1="12" y1="3" x2="12" y2="7"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                    <h3>Tire Sales & Alignment</h3>
+                    <p>Great prices on major tire brands plus precision alignments. Mr D makes sure your tires wear evenly and your car drives straight. We match any legitimate competitor's price.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+                    </div>
+                    <h3>Engine Repair & Diagnostics</h3>
+                    <p>Check engine light on? Mr D diagnoses it right and explains what's happening in plain English. From sensors to complete rebuilds, we fix your engine and get you back on the road.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="10" rx="2"/><path d="M6 7V4a2 2 0 012-2h8a2 2 0 012 2v3"/><circle cx="8" cy="14" r="1"/><circle cx="16" cy="14" r="1"/></svg>
+                    </div>
+                    <h3>Transmission Service</h3>
+                    <p>Slipping, hard shifts, or leaks? Mr D services both automatic and manual transmissions. Get an honest assessment before you spend thousands at the dealer. We save you money.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                    </div>
+                    <h3>Electrical & Battery</h3>
+                    <p>Dead battery, alternator problems, or electrical mysteries? Mr D traces the root cause and fixes it right the first time. No guessing, no throwing parts at the problem.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <h3>Suspension & Steering</h3>
+                    <p>Rough ride, pulling, or clunking noises? Mr D fixes shocks, struts, tie rods, and power steering problems. Restore your ride quality and stay safe on the road.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a10 10 0 1010 10A10 10 0 0012 2z"/><path d="M12 6v6l4 2"/></svg>
+                    </div>
+                    <h3>Smog Check & Repair</h3>
+                    <p>Need a smog check? Mr D's is a certified smog test and repair station. If your car fails, we fix it and get you passing fast. One stop, handled right.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="why-us" id="why-us">
+        <div class="container">
+            <div class="why-us-grid">
+                <div class="why-us-content">
+                    <span class="section-tag">Why Mr D's?</span>
+                    <h2>Mr D Puts His Name on Every Repair. That Means Something.</h2>
+                    <p>When a mechanic puts his own name on the shop, it changes everything. Mr D personally stands behind every repair that leaves his bay. No corporate games, no commission-based upselling. Just one honest mechanic who cares about his reputation and your car.</p>
+                    <div class="why-features">
+                        <div class="why-feature">
+                            <div class="why-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <div>
+                                <strong>Mr D Personally Oversees Every Repair</strong>
+                                <p>This is not a faceless chain shop. Mr D is here every day, working on cars and making sure every job meets his standards. His name is on the door and his reputation is on the line.</p>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="why-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <div>
+                                <strong>Straight Talk, Fair Prices</strong>
+                                <p>Mr D explains what's wrong in plain English. No technical jargon meant to confuse you. He tells you what needs fixing, what can wait, and what it costs. Upfront, always.</p>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="why-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <div>
+                                <strong>We Show You Everything</strong>
+                                <p>Before we fix anything, we show you the problem with your own eyes. No blind trust needed. You see it, understand it, and approve it. Informed decisions only.</p>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="why-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <div>
+                                <strong>Warranty on All Work</strong>
+                                <p>Every repair comes with warranty coverage. Mr D stands behind his work because he does it right the first time. Your confidence is the foundation of this business.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="why-us-visual">
+                    <div class="stats-card">
+                        <div class="stats-number" data-count="180">180+</div>
+                        <div class="stats-label">5-Star Reviews</div>
+                        <div class="stats-divider"></div>
+                        <div class="stats-number" data-count="20">20+</div>
+                        <div class="stats-label">Years of Experience</div>
+                        <div class="stats-divider"></div>
+                        <div class="stats-number" data-count="4000">4,000+</div>
+                        <div class="stats-label">Cars Repaired</div>
+                        <div class="stats-divider"></div>
+                        <div class="stats-number">Mr D</div>
+                        <div class="stats-label">Personally Oversees All Work</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Customer Reviews</span>
+                <h2>Mr D's Customers Speak.<br>Listen to What They Say.</h2>
+                <p>Real reviews from real customers. No cherry-picking, no filtering. Just honest feedback from people who trust Mr D with their cars.</p>
+            </div>
+            <div class="reviews-grid" id="reviewsGrid">
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"Mr D is the most honest mechanic I have ever met. He told me my brakes still had life left when another shop said I needed new ones right away. That kind of integrity is rare. I will never go anywhere else."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">P</div>
+                        <div>
+                            <strong>Patricia M.</strong>
+                            <span>Yelp Verified Review</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"I brought my car in making a weird noise. Mr D took a look, found the problem, and fixed it the same day for way less than I expected. He even showed me the old part and explained what happened. Great guy, great shop."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">E</div>
+                        <div>
+                            <strong>Eddie V.</strong>
+                            <span>Verified Customer Review</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"My whole family brings their cars to Mr D. He treats everyone with respect and never pushes unnecessary work. When he says you need something, you can take it to the bank. Best mechanic in Santa Ana."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">S</div>
+                        <div>
+                            <strong>Silvia H.</strong>
+                            <span>Yelp Verified Review</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"After being ripped off at a dealership, I found Mr D on Yelp. What a difference. He gave me a fair quote, stuck to it, and my car runs perfectly now. I drove 30 minutes to get here and it was worth every mile."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">J</div>
+                        <div>
+                            <strong>James T.</strong>
+                            <span>Verified Customer Review</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"Mr D saved me over $800 on a repair the dealer wanted to charge me for. He found a simpler solution that fixed the problem completely. This is what an honest mechanic looks like. Highly recommend!"</p>
+                    <div class="review-author">
+                        <div class="review-avatar">A</div>
+                        <div>
+                            <strong>Anna L.</strong>
+                            <span>Yelp Verified Review</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"I don't know much about cars and I always felt intimidated at other shops. Not here. Mr D explains everything so I can understand it and never makes me feel stupid. My car is always ready when he says it will be."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">R</div>
+                        <div>
+                            <strong>Rosa C.</strong>
+                            <span>Verified Customer Review</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews-cta">
+                <p>Join hundreds of satisfied Santa Ana drivers. Let Mr D earn your trust.</p>
+                <a href="tel:7145546711" class="btn btn-primary">Call (714) 554-6711 Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-tag">About Mr D's</span>
+                    <h2>One Honest Mechanic.<br>A Whole Community's Trust.</h2>
+                    <p>Mr D's Automotive was built on a simple idea: treat people right, do honest work, and the customers will come back. That philosophy has guided everything Mr D has done since opening his shop on Westminster Ave in Santa Ana.</p>
+                    <p>With over 20 years of experience under the hood, Mr D has seen it all and fixed it all. He works on every car himself or personally oversees the work. That means when you bring your car to Mr D's, you get Mr D. Not a revolving door of technicians, not a service advisor reading from a script. The man himself.</p>
+                    <p>Whether you drive a Honda, Toyota, Ford, Chevrolet, or BMW, Mr D has the skill and integrity to handle it right. He's not just your mechanic. He's the guy who tells you the truth about your car.</p>
+                    <div class="trust-badges">
+                        <span class="trust-badge">ASE Certified</span>
+                        <span class="trust-badge">20+ Years Experience</span>
+                        <span class="trust-badge">Mr D Oversees All Work</span>
+                    </div>
+                </div>
+                <div class="about-details">
+                    <div class="detail-card">
+                        <h4>Mr D Personally Involved</h4>
+                        <p>Unlike chain shops where you never see the same technician twice, Mr D is hands-on with every repair. He personally diagnoses issues and ensures the work meets his high standards.</p>
+                    </div>
+                    <div class="detail-card">
+                        <h4>Smog Check Certified</h4>
+                        <p>Mr D's is a certified smog test and repair station. Get your smog check and any needed repairs done in one convenient stop on Westminster Ave.</p>
+                    </div>
+                    <div class="detail-card">
+                        <h4>Warranty on All Repairs</h4>
+                        <p>Every repair comes with warranty coverage because Mr D stands behind his work. He does it right the first time, and he guarantees it.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>That Noise Will Not Fix Itself.<br>Call Mr D Before It Gets Worse.</h2>
+                <p>Every mile you drive with an unresolved issue is a gamble. Mr D will tell you exactly what's wrong and what it takes to fix it. No pressure, just the truth. Call now.</p>
+                <div class="cta-buttons">
+                    <a href="tel:7145546711" class="btn btn-primary btn-lg btn-pulse">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                        Call Now: (714) 554-6711
+                    </a>
+                    <a href="#contact" class="btn btn-secondary btn-lg btn-pulse">Request an Appointment</a>
+                </div>
+                <p class="cta-note">Mention this website for <strong>$15 OFF</strong> any service over $75!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2>Bring Your Car to Mr D</h2>
+                    <p>Walk-ins are welcome, but appointments get priority. Call Mr D directly or fill out the form and he'll get back to you fast during business hours.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                            <div>
+                                <strong>Phone</strong>
+                                <a href="tel:7145546711">(714) 554-6711</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <div>
+                                <strong>Address</strong>
+                                <span>3802 Westminster Ave<br>Santa Ana, CA 92703</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                            <div>
+                                <strong>Hours</strong>
+                                <span>Mon-Fri: 7:30 AM - 5:30 PM<br>Sat: 8:00 AM - 2:00 PM<br>Sunday: Closed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Request an Appointment</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone *</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="(714) 555-0000">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="john@email.com">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="make">Vehicle Make</label>
+                                <input type="text" id="make" name="make" placeholder="Toyota, Honda, BMW...">
+                            </div>
+                            <div class="form-group">
+                                <label for="year">Year</label>
+                                <input type="text" id="year" name="year" placeholder="2020">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Needed</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service...</option>
+                                <option value="oil-change">Oil Change & Lube</option>
+                                <option value="brakes">Brake Service & Repair</option>
+                                <option value="tires">Tire Sales & Alignment</option>
+                                <option value="engine">Engine Repair & Diagnostics</option>
+                                <option value="transmission">Transmission Service</option>
+                                <option value="electrical">Electrical & Battery</option>
+                                <option value="suspension">Suspension & Steering</option>
+                                <option value="smog">Smog Check & Repair</option>
+                                <option value="other">Other / General Inspection</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Describe the Issue</label>
+                            <textarea id="message" name="message" rows="3" placeholder="Tell Mr D what's going on with your vehicle..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Schedule My Appointment</button>
+                        <p class="form-note">Mr D will respond within 1 hour during business hours.</p>
+                    </form>
+                </div>
+            </div>
+            <div class="map-wrapper">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.5!2d-117.9223!3d33.7515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd9a0b0b0b0b3%3A0x123456789!2sMr+Ds+Automotive!5e0!3m2!1sen!2sus!4v1234567890" width="100%" height="350" style="border:0; border-radius: 16px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">D</span>
+                        <div class="logo-text">
+                            <span class="logo-name">Mr D's Automotive</span>
+                            <span class="logo-tagline">Honest Mechanic in Santa Ana</span>
+                        </div>
+                    </div>
+                    <p>Santa Ana's honest mechanic for over 20 years. Mr D puts his name on every repair. Straight talk, fair prices, and quality work you can count on.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#why-us">Why Mr D's</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#about">About Mr D</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Oil Change</a></li>
+                        <li><a href="#services">Brake Repair</a></li>
+                        <li><a href="#services">Tire Sales</a></li>
+                        <li><a href="#services">Engine Repair</a></li>
+                        <li><a href="#services">Smog Check</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><a href="tel:7145546711">(714) 554-6711</a></p>
+                    <p>3802 Westminster Ave<br>Santa Ana, CA 92703</p>
+                    <p>Mon-Fri: 7:30AM - 5:30PM<br>Sat: 8AM - 2PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Mr D's Automotive. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile CTA -->
+    <div class="mobile-cta" id="mobileCta">
+        <a href="tel:7145546711" class="btn btn-primary btn-full">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Call Now: (714) 554-6711
+        </a>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">&uarr;</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
